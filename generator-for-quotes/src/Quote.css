@@ -1,0 +1,52 @@
+.App {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #03d4fe;
+ }
+ .quote {
+    color: #ffffff;
+    margin: 1em;
+ }
+ .author {
+    color: #ffffff;
+    float: right;
+    margin: 1em;
+ }
+ .boxQuote {
+    position: absolute;
+    background-color: black;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    border-radius: 10px 10px 10px 10px;
+ }
+ .buttonQuote {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+ }
+ button {
+    background-color: #03045e;
+    border-radius: 28px;
+    border: 1px solid #5759d6;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #5759d6;
+ }
+ button:hover {
+    background-color: #8283df;
+ }
+ button:active {
+    position: relative;
+    top: 1px;
+ }
+ 
